@@ -10,7 +10,7 @@ import java.util.Map;
 import java.util.zip.DataFormatException;
 
 public class Calculator {
-    static Map<String, String> mapRomanArabNumbers = new HashMap<String,String>(){{
+    private static Map<String, String> mapRomanArabNumbers = new HashMap<String,String>(){{
         put(   "I",  "1");
         put(  "II",  "2");
         put( "III",  "3");
